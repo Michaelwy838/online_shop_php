@@ -1,0 +1,495 @@
+body{
+font-size: 20px;
+/* mycart */
+}
+.cart-item{
+background-color: green;
+color: white;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#users td, #users th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#users{
+    border-collapse: collapse;
+    
+}
+#users tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#users th{
+    background-color: green;
+    color: white;
+    text-align: left;
+}
+.cart{
+position: relative;
+}
+h2{
+font-size: 25px;
+}
+.top{
+position: relative;
+z-index: 2;
+background-color: #eee;
+box-sizing: border-box;
+
+}
+.blank{
+background-color: green;
+height: 120px;
+position: absolute;
+z-index: -1;
+}
+.bun{
+border: none;
+color: white;
+background: green;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 6px 10px;
+}
+.pending{
+width: 40px;
+height: 40px;
+border: 5px solid #eee;
+border-top: 5px solid red;
+border-radius: 50%;
+animation: spin 1s linear infinite;
+
+}
+.completed{
+width: 40px;
+height: 40px;
+border: 5px solid green;
+border-radius: 50%;
+
+}
+.dashboard li{
+list-style-type: none;
+}
+.dashboard li .logout{
+color: red;
+}
+.dashboard li .logout:hover{
+    color: white;
+    background: red;
+    }
+.bod{
+border-right: 4px solid black
+}
+li{
+text-decoration: none;
+}
+@keyframes spin {
+0% {
+transform: rotate(0deg);
+}
+
+100% {
+transform: rotate(360deg);
+}
+}
+.user ul li{
+list-style-type: none;
+}
+.user ul li a{
+color: white;
+padding: 0px 30px 0px 30px;
+}
+.user ul li a:hover{
+background-color: green;
+padding: 17px 30px 18px 30px;
+transition: 0.2s ease-in;
+}
+.user ul{
+}
+
+.link{
+text-decoration: none;
+border: 1px solid rgb(0, 172, 232);
+color: rgb(0, 172, 232);
+}
+.emp{
+position: absolute;
+width: 200px;
+height: 200px;
+/* border-radius: 50%; */
+border: 10px solid rgba(0, 172, 232, 0.2);
+}
+.link:hover{
+background-color: rgb(0, 172, 232);
+color: white;
+transition: ease-in 0.6s;
+}
+.checkout{
+background-color: #820d18;
+color: white;
+text-decoration: none;
+}
+.add{
+background-color: #820d18;
+}
+.order{
+color: #820d18;
+}
+.checkout:hover{
+background-color: #820d10;
+color: white;
+transition: ease-in 0.6s;
+}
+.in{
+width: 10px;
+}
+.w{
+width: 250px;
+}
+
+.c{
+width: 100px;
+}
+.x{
+width: 60px;
+}
+
+.cor{
+position: relative;
+}
+.details{
+position: absolute;
+top: 30px;
+width: 60%;
+} 
+.head{
+background-color: #043d69;
+}
+.pop{
+position: absolute;
+top: 20px;
+}
+.shop{
+position: absolute;
+bottom: 10px;
+}
+/* checkout */
+.check{
+background-color: #043d69;
+color: white;
+}
+.empty{
+background-color: #043d69;
+height: 120px;
+position: absolute;
+z-index: -1;
+}
+.ored{
+background-color: #4d0722;
+height: 120px;
+position: absolute;
+z-index: -1;
+}
+.orders{
+background-color: #4d0722;
+color: white;
+}
+.r{
+width: 300px;
+}
+.zc{
+width: 200px;
+}
+form .buon{
+background-color: green;
+border: none;
+color: white;
+display: block;
+width: 100%;
+}
+form .buons{
+background-color: green;
+border: none;
+color: white;
+display: block;
+width: 20%;
+}
+form .buons:hover{
+background-color: #2d740a;
+color: white;
+}
+.flink a{
+text-decoration: none;
+color: white;
+
+}
+.success{
+margin-bottom: 0px;
+}
+.logodiv{
+background-color: rgb(0, 172, 232);
+}
+.logodiv a{
+color: black;
+}
+
+sup{
+color: white;
+}
+.logo{
+width: 400px;
+}
+.flink a:hover{
+letter-spacing: 10px;
+}
+footer .bottom{
+width: 200px;
+}
+.index{
+height: 100vh;
+}
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 10;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 1);
+overflow-x: hidden;
+transition: 0.5s; 
+}
+.sidenav li a {
+border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+padding: 15px 8px 15px 20px;
+text-decoration: none;
+font-size: 15px;
+color: white;
+display: block;
+transition: 0.3s;
+}
+body li{
+list-style-type: none;
+}
+
+.sidenav li a:hover {
+background-color: green;
+padding: 20px 8px 20px 20px;
+transition: 0.3s;
+
+}
+.sidenav ul{
+margin-top: 60px;
+padding-left: 0px;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+border: none;
+color: white;
+}
+
+a{
+text-decoration: none;
+}
+.adm{
+width: 400px;
+}
+* {box-sizing:border-box}
+.slideshow-container {
+width: 100%;
+margin: 0;
+padding: 0;
+position: relative;
+margin: auto;
+height: 95vh;
+overflow: hidden;
+}
+.myslides img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+.mySlides {
+display: none;
+}
+.o{
+    
+}
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+color: black;
+font-size: 15px;
+padding: 8px 12px 40px 12px;
+position: absolute;
+bottom: 0px;
+background-color: yellow;
+width: 100%;
+text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 20px;
+border: 1px solid white;
+padding: 8px 12px;
+position: absolute;
+left: 50%;
+margin-top: 20px;
+transform: translateX(-50%);
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 10px;
+width: 10px;
+margin: 0 2px;
+background-color: rgb(0, 172, 232);
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+.dl{
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.active {
+background-color: white;
+}
+.dots{
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+bottom: 8px;
+}
+/* Fading animation */
+.fade {
+animation-name: fade;
+animation-duration: 4s;
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}  
+@media only screen and (max-width: 560px){
+body{
+font-size: 15px;
+}
+
+.numbertext {
+color: #f2f2f2;
+font-size: 15px;
+border: 1px solid white;
+padding: 5px;
+text-align: center;
+width: fit-content;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 0;
+}
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+
+.logodiv a{
+font-size: 18px;
+}
+.logo{
+width: 200px;
+}
+.dashboard ul li{
+font-size: 12px;
+}
+.emp{
+position: absolute;
+width: 50px;
+height: 50px;
+border-radius: 50%; */
+border: 10px solid rgba(0, 172, 232, 0.2);
+}
+.slideshow-container {
+width: 100%;
+margin: 0;
+padding: 0;
+position: relative;
+margin: auto;
+height: auto;
+overflow: hidden;
+}
+.error p{
+font-size: 15px;
+color: white;
+}
+/* mycart */
+.w{
+width: 80px;
+}
+.c{
+width: 60px;
+}
+.r{
+width: 250px;
+}
+.s{
+width: 130px;
+}
+.pending{
+width: 20px;
+height: 20px;
+border: 3px solid #eee;
+border-top: 3px solid red;
+border-radius: 50%;
+animation: spin 1s linear infinite;
+
+}
+.completed{
+width: 20px;
+height: 20px;
+border: 3px solid green;
+border-radius: 50%;
+
+}
